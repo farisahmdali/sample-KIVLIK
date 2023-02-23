@@ -1,0 +1,160 @@
+.App{
+  background-image: url(../public/bg.png);
+  background-repeat:no-repeat;
+  background-size: 100% 25%;
+}
+
+.chair{
+  float: right;
+  position: absolute;
+  margin-left: 150vh;
+  margin-top: 16vh;
+}
+.logo{
+  width:15vh;
+  float: left;
+}
+.btn-logo{
+  cursor: pointer;
+  background: none;
+  width: 90vh;
+  border: none;
+  height: 31px;
+}
+.career{
+  color: white;
+  animation: slide 1s;
+  margin-left: 22%;
+  margin-top: 9%;
+  font-size: 30px;
+}
+.sub-res{
+  margin-left: 6%;
+  animation: slide 1s;
+  margin-top: 13%;
+}
+.P-D{
+  margin-left: 6%;
+  animation: slide 1s;
+  margin-top: 9%;
+}
+.box{
+  border-radius: 3px;
+  border: solid 0.5px;
+  animation: slide 1s;
+  
+}
+
+.Row{
+  margin-top: 18px;
+  animation: slide 1s;
+  width: 100%;
+}
+@media (max-width:1000px) {
+  .btn-logo{
+    width: 1vh;
+  }
+  .career{
+    margin-top: 20vh;
+    font-size: 21px;
+  }
+  .App{
+    background-size: 100% 15%;
+  }
+  .details{
+    margin-top: 10vh;
+  }
+  .apple{
+    margin-top: 2px;
+  }
+  .chair{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 12vh;
+  }
+  .sub-res{
+    margin-top: 20vh;
+  }
+  .P-D{
+    margin-top: 13vh;
+  }
+
+}
+.details{
+  margin-left: 6%;
+  animation: slide 1s;
+}
+.CV{
+  margin-top: 18px;
+  animation: slide 1s;
+}
+.up-cv{
+  border: solid 1px;
+  background: #636161;
+  border-radius: 15px;
+  width: 200px;
+  cursor: pointer;
+}
+.up-cv1{
+  display: none;
+}
+.text{
+  font-size: 8px;
+}
+footer{
+  background-color: #ADA6A0;
+  
+}
+.logo2{
+  width: 15vh;
+  
+}
+.footer{
+  margin: 6%;
+}
+h6{
+  font-family: sans-serif;
+  font-weight: 300;
+  color: rgb(51, 50, 50);
+}
+.facebook{
+  font-weight: bold;
+  font-size: 20px;
+}
+.insta{
+  height: 3vh;
+}
+.foot-r{
+  width: 27vh;
+}
+a{
+  color: #ADA6A0;
+}
+.apple{
+  border-radius: 13px;
+  border: solid 1px rgb(24, 137, 212);
+  height: 8vh;
+}
+a:hover{
+  color: #ADA6A0;
+}
+p,h1,h2,h3,h4,h5,h6{
+  cursor:default;
+}
+.last{
+  float: right;
+  font-size: 12px;
+}
+.right{
+  font-size: 12px;
+}
+@keyframes slide {
+ 
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+  
+}
